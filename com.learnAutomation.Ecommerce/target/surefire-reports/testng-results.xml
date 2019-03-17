@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="9282" started-at="2019-03-17T21:42:00Z" finished-at="2019-03-17T21:42:09Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="9282" started-at="2019-03-17T21:42:00Z" finished-at="2019-03-17T21:42:09Z">
+      <class name="testcases.FirstTestCase4">
+        <test-method status="PASS" signature="setupTestSuite()[pri:0, instance:testcases.FirstTestCase4@4562e04d]" name="setupTestSuite" is-config="true" duration-ms="95" started-at="2019-03-17T17:42:00Z" finished-at="2019-03-17T17:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTestSuite -->
+        <test-method status="PASS" signature="startApplication()[pri:0, instance:testcases.FirstTestCase4@4562e04d]" name="startApplication" is-config="true" duration-ms="5278" started-at="2019-03-17T17:42:00Z" finished-at="2019-03-17T17:42:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="verifyValidUser()[pri:0, instance:testcases.FirstTestCase4@4562e04d]" name="verifyValidUser" duration-ms="1278" started-at="2019-03-17T17:42:05Z" finished-at="2019-03-17T17:42:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidUser -->
+        <test-method status="PASS" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:testcases.FirstTestCase4@4562e04d]" name="tearDownTest" is-config="true" duration-ms="2" started-at="2019-03-17T17:42:07Z" finished-at="2019-03-17T17:42:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyValidUser status=SUCCESS method=FirstTestCase4.verifyValidUser()[pri:0, instance:testcases.FirstTestCase4@4562e04d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:testcases.FirstTestCase4@4562e04d]" name="verifyLogin" duration-ms="1919" started-at="2019-03-17T17:42:07Z" depends-on-methods="testcases.FirstTestCase4.verifyValidUser" finished-at="2019-03-17T17:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="tearDownTest(org.testng.ITestResult)[pri:0, instance:testcases.FirstTestCase4@4562e04d]" name="tearDownTest" is-config="true" duration-ms="0" started-at="2019-03-17T17:42:09Z" finished-at="2019-03-17T17:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyLogin status=SUCCESS method=FirstTestCase4.verifyLogin()[pri:0, instance:testcases.FirstTestCase4@4562e04d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+        <test-method status="PASS" signature="closeAppication()[pri:0, instance:testcases.FirstTestCase4@4562e04d]" name="closeAppication" is-config="true" duration-ms="799" started-at="2019-03-17T17:42:09Z" finished-at="2019-03-17T17:42:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAppication -->
+        <test-method status="PASS" signature="tearDowntestSuite()[pri:0, instance:testcases.FirstTestCase4@4562e04d]" name="tearDowntestSuite" is-config="true" duration-ms="227" started-at="2019-03-17T17:42:09Z" finished-at="2019-03-17T17:42:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDowntestSuite -->
+      </class> <!-- testcases.FirstTestCase4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
